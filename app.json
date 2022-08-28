@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "ToDo App",
+    "slug": "todoList",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/unnamed.png",
+    "userInterfaceStyle": "dark",
+    "splash": {
+      "image": "./assets/unnamed.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#30A1D7"
+     
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "tothepointcode.todoapp",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/unnamed.png",
+        "backgroundColor": "#0000"
+      }
+    },
+    "web": {
+      "favicon": "./assets/unnamed.png"
+    }
+  }
+}
